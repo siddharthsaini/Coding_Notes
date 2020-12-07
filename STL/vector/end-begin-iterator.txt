@@ -1,0 +1,20 @@
+﻿// #include<bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main()
+{
+vector<int> demo{1, 2, 3, 4, 5, 6, 7, 8};
+
+auto it = demo.end(); //returns pointer data-type
+cout<<*it;
+
+for (auto i = demo.end()-1; i >= demo.begin(); i--)
+{
+cout<<*i;
+}
+return 0;
+}
+
